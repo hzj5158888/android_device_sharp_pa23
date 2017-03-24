@@ -1,0 +1,34 @@
+#
+# system.prop for pa23
+#
+
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+mmp.enable.3g2=true
+mm.enable.smoothstreaming=true
+persist.data.netmgrd.qos.enable=true
+ro.data.large_tcp_window_size=true
+# system prop for opengles version
+#
+# 196608 is decimal for 0x30000 to report version 3
+ro.opengles.version=196608
+
+# System property for cabl
+ro.qualcomm.cabl=1
+# SdcardFS
+ro.sys.sdcardfs=true
+
+#Simulate sdcard on /data/media
+#
+persist.fuse_sdcard=true
+
+#
+ro.qc.sdk.audio.ssr=false
+##fluencetype can be "fluence" or "fluencepro" or "none"
+ro.qc.sdk.audio.fluencetype=fluence
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=false
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+
