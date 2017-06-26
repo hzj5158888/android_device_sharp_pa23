@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/root/ueventd.qcom.rc:root/ueventd.qcom.rc \
 	$(LOCAL_PATH)/recovery/root/fstab.qcom:root/fstab.qcom
 
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -85,11 +84,15 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     lights.MSM8974
 
 # IR
 PRODUCT_PACKAGES += \
     consumerir.msm8974
+=======
+    lights.msm8974
+>>>>>>> cm-14.1/cm-14.1
 
 # Power
 PRODUCT_PACKAGES += \
@@ -192,6 +195,7 @@ PRODUCT_PACKAGES += \
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb
+
 
 # Permissions
 PRODUCT_COPY_FILES += \
