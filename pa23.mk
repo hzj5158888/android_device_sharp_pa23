@@ -84,15 +84,11 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     lights.MSM8974
 
 # IR
 PRODUCT_PACKAGES += \
     consumerir.msm8974
-=======
-    lights.msm8974
->>>>>>> cm-14.1/cm-14.1
 
 # Power
 PRODUCT_PACKAGES += \
